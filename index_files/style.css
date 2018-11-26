@@ -1,0 +1,39 @@
+/*
+Theme Name: HealthFlex Child
+Theme URI: http://plethorathemes.com/healthflex/
+Description: Child theme for Health Flex (Plethora Themes). We strongly recommend using this child theme that will allow you to include all your custom functionality without fear of losing it when updating the parent theme. Note that theme updates must be applied only on parent theme, and not on this child theme. 
+Version: 1.4.2
+Author: Plethora Themes
+Author URI: http://plethorathemes.com
+License: GNU General Public License v2 or later 
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: responsive-layout, theme-options, translation-ready
+Template: healthflex
+*/
+/* DO YOUR STUFF AFTER THIS !!  */
+
+.welcometxt {
+    font-size: 1.6em; /* 14px/16=0.875em */
+    font-family: 'Tangerine', cursive;
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+.gravitytxt {
+    font-size: 1.2em; /* 14px/16=0.875em */
+}
+
+
+.offset:before { 
+	display: block; 
+ 	content: " "; 
+  	height: 550px;      /* Give height of your fixed element */
+        margin-top: -550px; /* Give negative margin of your fixed element */  	
+        visibility: hidden; 
+}
+
+.anchor{
+  display: block;
+  height: 515px; /*same height as header*/
+  margin-top: -515px; /*same height as header*/
+  visibility: hidden;
+}

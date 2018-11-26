@@ -1,0 +1,58 @@
+
+
+
+
+.mynav{
+
+  padding-top: 10px;
+  padding-bottom: 10px ;
+
+}
+
+
+.navbar-inverse {
+  background-image: none;
+  background-repeat: no-repeat;
+  background-color: #15ABF9;
+ }
+.panel{
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
+.tram{
+padding-left: 5vh;
+padding-right: 5vh;
+color:#0f52ba ;
+font-family: OCR A Std, monospace;
+}
+
+
+.bg{
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+.form-control{
+
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+}
+label{
+  margin-bottom: 4px ;
+  margin-right: 12px;
+  padding-right:
+}
+#inputid, btn{
+  margin-top: 5px ;
+  margin-bottom: 5px ;
+  
+}
+.cmydivmodify{
+
+  border: 2px solid red;
+  border-radius: 12px;
+}
+
+.
